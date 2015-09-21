@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pfO-5e-Yl8">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="叶根友千秋字体.ttf">
+            <string>-</string>
+            <string>-</string>
+            <string>-</string>
+            <string>-</string>
+            <string>-</string>
+            <string>-</string>
+            <string>-</string>
+            <string>-</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="g42-eI-SxT">
+            <objects>
+                <viewController storyboardIdentifier="MVc" id="pfO-5e-Yl8" customClass="MViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jyc-60-QKD"/>
+                        <viewControllerLayoutGuide type="bottom" id="b5f-4M-UQ0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dsz-Xo-evR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beijjj.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZQu-cr-mWD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZQu-cr-mWD" firstAttribute="leading" secondItem="Dsz-Xo-evR" secondAttribute="leadingMargin" constant="-16" id="CUf-Vj-ahs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZQu-cr-mWD" secondAttribute="trailing" constant="-16" id="Nar-wz-Vp5"/>
+                            <constraint firstItem="b5f-4M-UQ0" firstAttribute="top" secondItem="ZQu-cr-mWD" secondAttribute="bottom" id="hrf-ku-H9j"/>
+                            <constraint firstItem="ZQu-cr-mWD" firstAttribute="top" secondItem="Dsz-Xo-evR" secondAttribute="topMargin" id="lBS-A9-u7q"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0r8-3r-43l"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J4x-eu-3jZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2762" y="5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BLb-de-4EK">
+            <objects>
+                <viewController storyboardIdentifier="Cvc" id="JpQ-QX-2zO" customClass="CViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RiX-LK-T23"/>
+                        <viewControllerLayoutGuide type="bottom" id="4SF-e7-PYS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Deb-wC-YPI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="单人最高分:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tom-gX-dF9">
+                                <rect key="frame" x="63" y="125" width="115" height="40"/>
+                                <fontDescription key="fontDescription" name="-" family="?|??????" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="XU4-Xo-3RI">
+                                <rect key="frame" x="199" y="132" width="90" height="26"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="rWi-oH-2T1">
+                                <rect key="frame" x="199" y="176" width="90" height="26"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttO-mf-mGr">
+                                <rect key="frame" x="8" y="20" width="48" height="30"/>
+                                <fontDescription key="fontDescription" name="-" family="?|??????" pointSize="20"/>
+                                <state key="normal" title="返回">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnBack:" destination="JpQ-QX-2zO" eventType="touchUpInside" id="qni-Dy-a9N"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="对战累计:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXr-Ci-uF7">
+                                <rect key="frame" x="75" y="217" width="103" height="40"/>
+                                <fontDescription key="fontDescription" name="-" family="?|??????" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 胜" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="OYo-z5-2DC">
+                                <rect key="frame" x="199" y="224" width="90" height="26"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="联盟最高分:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEP-j4-56j">
+                                <rect key="frame" x="64" y="173" width="114" height="40"/>
+                                <fontDescription key="fontDescription" name="-" family="?|??????" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yqg-sP-LGH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4SF-e7-PYS" firstAttribute="top" secondItem="Yqg-sP-LGH" secondAttribute="bottom" id="F1u-AY-lro"/>
+                            <constraint firstItem="Yqg-sP-LGH" firstAttribute="top" secondItem="Deb-wC-YPI" secondAttribute="topMargin" id="R4o-k6-onc"/>
+                            <constraint firstItem="Yqg-sP-LGH" firstAttribute="leading" secondItem="Deb-wC-YPI" secondAttribute="leadingMargin" constant="-16" id="Ze3-te-mD4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yqg-sP-LGH" secondAttribute="trailing" constant="-16" id="ldL-xm-9Ni"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="alliance" destination="IEP-j4-56j" id="vvm-VL-1P9"/>
+                        <outlet property="allianceRank" destination="rWi-oH-2T1" id="TKI-ju-SBm"/>
+                        <outlet property="back" destination="ttO-mf-mGr" id="TU2-Km-Eb8"/>
+                        <outlet property="single" destination="Tom-gX-dF9" id="Eog-aT-r4t"/>
+                        <outlet property="singleRank" destination="XU4-Xo-3RI" id="0Es-n3-TBC"/>
+                        <outlet property="solo" destination="dXr-Ci-uF7" id="srr-S7-oKQ"/>
+                        <outlet property="soloRank" destination="OYo-z5-2DC" id="iMK-Dg-RmT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5vl-Zj-nFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3090" y="788"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ANo-O4-1kE">
+            <objects>
+                <viewController storyboardIdentifier="SVc" id="Fq8-JL-LUQ" customClass="SViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XaB-2F-EUF"/>
+                        <viewControllerLayoutGuide type="bottom" id="hDG-gt-8Ya"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aL9-b5-z0U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Itc-0I-46P">
+                                <rect key="frame" x="78" y="317" width="164" height="51"/>
+                                <fontDescription key="fontDescription" name="-" family="?|??????" pointSize="33"/>
+                                <state key="normal" title="断开连接">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="disConnect:" destination="Fq8-JL-LUQ" eventType="touchUpInside" id="tAH-da-FRn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybL-ea-7Bh">
+                                <rect key="frame" x="78" y="103" width="164" height="50"/>
+                                <fontDescription key="fontDescription" name="-" family="?|??????" pointSize="35"/>
+                                <state key="normal" title="联盟模式">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="run:" destination="Fq8-JL-LUQ" eventType="touchUpInside" id="FF8-uo-5LU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoo-NZ-Aek">
+                                <rect key="frame" x="78" y="179" width="164" height="45"/>
+                                <fontDescription key="fontDescription" name="-" family="?|??????" pointSize="36"/>
+                                <state key="normal" title="对战模式">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="solo:" destination="Fq8-JL-LUQ" eventType="touchUpInside" id="Pua-pD-PvA"/>
+                                    <segue destination="IHH-9d-lph" kind="show" id="JTY-yl-3KP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpd-uN-svV">
+                                <rect key="frame" x="78" y="247" width="164" height="51"/>
+                                <fontDescription key="fontDescription" name="-" family="?|??????" pointSize="38"/>
+                                <state key="normal" title="联机">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="connect:" destination="Fq8-JL-LUQ" eventType="touchUpInside" id="wfi-Vl-Zze"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="wif-wj-MmZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wif-wj-MmZ" firstAttribute="leading" secondItem="aL9-b5-z0U" secondAttribute="leadingMargin" constant="-16" id="7V2-wo-y8G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wif-wj-MmZ" secondAttribute="trailing" constant="-16" id="HNb-WJ-ZjB"/>
+                            <constraint firstItem="hDG-gt-8Ya" firstAttribute="top" secondItem="wif-wj-MmZ" secondAttribute="bottom" id="LaN-Fg-Shj"/>
+                            <constraint firstItem="wif-wj-MmZ" firstAttribute="top" secondItem="aL9-b5-z0U" secondAttribute="topMargin" id="LwE-rL-cj1"/>
+                            <constraint firstAttribute="centerX" secondItem="uoo-NZ-Aek" secondAttribute="centerX" id="O0D-d5-eCU"/>
+                            <constraint firstAttribute="centerX" secondItem="ybL-ea-7Bh" secondAttribute="centerX" id="cfe-zb-S3r"/>
+                            <constraint firstAttribute="centerX" secondItem="Itc-0I-46P" secondAttribute="centerX" id="hCv-Y8-0Vh"/>
+                            <constraint firstAttribute="centerX" secondItem="bpd-uN-svV" secondAttribute="centerX" id="pmV-p7-3WA"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="action" destination="ybL-ea-7Bh" id="YKZ-q4-DhX"/>
+                        <outlet property="battle" destination="uoo-NZ-Aek" id="QKl-dM-hNK"/>
+                        <outlet property="conects" destination="bpd-uN-svV" id="mmx-YY-oPF"/>
+                        <outlet property="disconnects" destination="Itc-0I-46P" id="yNT-gJ-YQr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7l9-Dv-xN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2739" y="802"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="CtS-rA-C9T">
+            <objects>
+                <viewController storyboardIdentifier="GVC" id="LVB-YS-i5n" customClass="GameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PCf-gQ-wO7"/>
+                        <viewControllerLayoutGuide type="bottom" id="b3d-qh-BLL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bdc-N1-crn" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvV-gZ-XRx">
+                                <rect key="frame" x="10" y="0.0" width="24" height="25"/>
+                                <state key="normal" image="game_pause_n.png" backgroundImage="game_pause_p.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="game_resume_n.png"/>
+                                <state key="selected" image="game_resume_n.png" backgroundImage="game_resume_p.png"/>
+                                <connections>
+                                    <action selector="psuse:" destination="LVB-YS-i5n" eventType="touchUpInside" id="PDB-it-pqs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="btn" destination="cvV-gZ-XRx" id="xPE-Nu-CLc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3245" y="55"/>
+        </scene>
+        <!--Double View Controller-->
+        <scene sceneID="kAN-du-8WX">
+            <objects>
+                <viewController storyboardIdentifier="DVC" id="lDj-s3-PFx" customClass="DoubleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VWE-d3-u3Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="fDC-mX-6FD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rsI-Bu-bJP" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNn-RO-2Yp">
+                                <rect key="frame" x="10" y="0.0" width="24" height="25"/>
+                                <state key="normal" image="game_pause_n.png" backgroundImage="game_pause_p.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="game_resume_n.png"/>
+                                <state key="selected" image="game_resume_n.png" backgroundImage="game_resume_p.png"/>
+                                <connections>
+                                    <action selector="psuse:" destination="lDj-s3-PFx" eventType="touchUpInside" id="5Xq-dD-px4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="btn" destination="dNn-RO-2Yp" id="d3k-IN-ggg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ddl-Zh-UE6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3576" y="478"/>
+        </scene>
+        <!--Solo View Controller-->
+        <scene sceneID="F3x-RV-mM8">
+            <objects>
+                <viewController storyboardIdentifier="SOVC" id="IHH-9d-lph" customClass="SoloViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wlH-OM-PMF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q4d-A7-BEo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YIZ-rI-She" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PZU-AU-2cl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3371" y="1047"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="beijjj.png" width="320" height="568"/>
+        <image name="bg.png" width="320" height="568"/>
+        <image name="game_pause_n.png" width="42" height="45"/>
+        <image name="game_pause_p.png" width="42" height="45"/>
+        <image name="game_resume_n.png" width="38" height="41"/>
+        <image name="game_resume_p.png" width="38" height="41"/>
+    </resources>
+</document>
